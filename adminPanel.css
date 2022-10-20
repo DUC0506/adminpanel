@@ -46,8 +46,9 @@ li {
 	height: 100%;
 	overflow-y: auto;
 	scrollbar-width: none;
-	transition: all .3s ease;
+	transition: all  .3s ease;
 	z-index: 200;
+	
 }
 #sidebar.hide {
 	max-width: 60px;
@@ -59,7 +60,7 @@ li {
 	display: none;
 }
 #sidebar .brand {
-	font-size: 24px;
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	height: 64px;
@@ -71,8 +72,7 @@ li {
 	z-index: 100;
 	background: var(--light);
 	transition: all .3s ease;
-	padding: 0 6px;
-}
+	}
 #sidebar .icon {
 	min-width: 48px;
 	display: flex;
@@ -88,6 +88,7 @@ li {
 	margin: 36px 0;
 	padding: 0 20px;
 	transition: all .3s ease;
+	
 }
 #sidebar.hide .side-menu {
 	padding: 0 6px;
@@ -136,7 +137,7 @@ li {
 	padding-left: 54px;
 	max-height: 0;
 	overflow-y: hidden;
-	transition: all .15s ease;
+	transition: all .4s ease;
 }
 #sidebar .side-dropdown.show {
 	max-height: 1000px;
@@ -368,8 +369,8 @@ main .card .head p {
 	font-size: 14px;
 }
 main .card .head .icon {
-	font-size: 20px;
-	color: var(--green);
+	font-size: 40px;
+	color: var(--blue);
 }
 main .card .head .icon.down {
 	color: var(--red);
@@ -585,4 +586,16 @@ main .btn-send:hover {
 	nav .divider {
 		display: none;
 	}
+}
+
+.imglogo
+{
+	display: block;
+	margin-left: -20px;
+	margin-right: -8px;
+	width: 104px;
+	
+	
+	
+	
 }

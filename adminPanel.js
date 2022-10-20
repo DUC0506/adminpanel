@@ -98,6 +98,8 @@ allDropdown.forEach(item =>
       })
 
     })
+  
+    //hide menu in sidebar
 
 const toggleSidebar = document.querySelector('nav .toggle-sidebar');
 const allSideDivider = document.querySelectorAll('#sidebar .divider');
@@ -136,3 +138,25 @@ toggleSidebar.addEventListener('click', function () {
 		})
 	}
 })
+var options = {
+  series: [44, 55, 13, 43],
+  chart: {
+  width: 500,
+  type: 'pie',
+},
+labels: ['Academic', 'Non-academic', 'Administration', 'Others'],
+responsive: [{
+  breakpoint: 480,
+  options: {
+    chart: {
+      width: 200
+    },
+    legend: {
+      position: 'bottom'
+    }
+  }
+}]
+};
+
+var chart = new ApexCharts(document.querySelector("#chart1"), options);
+chart.render();
