@@ -63,7 +63,7 @@ li {
 	font-size: 20px;
 	display: flex;
 	align-items: center;
-	height: 64px;
+	height: 62px;
 	font-weight: 700;
 	color: var(--blue);
 	position: sticky;
